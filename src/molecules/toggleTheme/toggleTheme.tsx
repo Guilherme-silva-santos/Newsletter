@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from 'react'
 import { MoonIcon, SunIcon } from '@heroicons/react/24/solid'
 

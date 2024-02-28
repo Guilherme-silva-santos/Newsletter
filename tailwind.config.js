@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'selector',
+  darkMode: ['class'],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -18,6 +18,14 @@ module.exports = {
     },
     extend: {
       colors: {
+        dark: {
+          100: 'rgb(18, 18, 18)',
+          200: 'rgb(51, 51, 51)',
+        },
+        alura: {
+          100: '#167BF7',
+          200: '#051933',
+        },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
